@@ -1,0 +1,29 @@
+{
+  "name": "pluralize-ts",
+  "version": "0.0.1",
+  "description": "Pluralize module for JS or TS",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsangk/pluralize-ts.git"
+  },
+  "author": "vsangk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsangk/pluralize-ts/issues"
+  },
+  "homepage": "https://github.com/vsangk/pluralize-ts#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
